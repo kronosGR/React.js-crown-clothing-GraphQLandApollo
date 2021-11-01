@@ -14,3 +14,4 @@ A clothing store, e-shop.
 * Payment demostration with stripe.com (react-stripe-checkout)
 * Heroku deployment (https://github.com/mars/create-react-app-buildpack)
 * styled components on some components (styled-components)
+* GraphQL (graphql, react-apollo apollo-boost)
