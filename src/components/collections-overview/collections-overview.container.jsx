@@ -1,4 +1,4 @@
-import { React } from 'react';
+import React from 'react';
 import { Query } from 'react-apollo';
 import { gql } from 'apollo-boost';
 
@@ -19,6 +19,7 @@ const GET_COLLECTIONS = gql`
     }
   }
 `;
+
 const CollectionsOverviewContainer = () => (
   <Query query={GET_COLLECTIONS}>
     {({ loading, data }) => {
